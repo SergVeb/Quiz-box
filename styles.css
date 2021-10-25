@@ -1,0 +1,165 @@
+.wrapper {
+    background:#17191C;
+    height: 2390px;
+    width:  1920px;
+}
+
+
+
+.header {
+    background: url("images/nbgB77C1HAg\ 1\ \(2\).png") no repeate;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    width: 168px;
+    height: 27px;
+}
+
+.logo {
+    position: absolute;
+    display: inline-block;
+    padding: 34px;
+    left: 0;
+    right:auto;
+}
+
+header__title {
+    width: 637px;
+    height: 194px;
+    border: hidden;
+}
+
+header__title {
+    font-family: open sans;
+    font-size: 60px;
+    color: white;
+}
+
+
+.header__contacts {
+    font-family: open sans;
+    font-size: 13px;
+}
+
+.header__contacts {
+    position: absolute;
+    margin: right 0; 
+}
+
+
+
+
+.menu__list {
+    width: 391px;
+    height: 27px;
+    position: absolute;
+}
+
+.menu__list {
+font-size: 16px;
+font-family: open sans;
+
+}
+
+.menu {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+.header__phone {
+    font-family: Open sans;
+    font-weight: 400;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 35,41;
+    font-size: 26px;
+}
+
+
+.header__phone {
+    position: absolute;
+    right: 0 ;
+}
+
+
+.header__title {
+    font-family: open sans;
+    font-style: bold;
+    font-size: 26px;
+}
+
+.header__title mini {
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+.wrapper3 {
+    width: 362px;
+    height: 305px;
+    position: absolute;
+}
+
+
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: hidden;
+    position: relative;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.section1 {
+    width: 362px;
+    height: 305px;
+    background: white;
+}
+
+
+.button1 {
+    position: relative;
+}
+
+.button1 {
+    font-size: 14px;
+    font-style: bold;    
+    border-radius: 5px;
+    background-color: #8F00FF;
+    color: #FFFFFF;
+}
+
+.button2 {
+    font-size: 14px;
+    font-style: bold;    
+    border-radius: 5px;
+    background-color: #8F00FF;
+    color: #FFFFFF;
+}
+
+.button3 {
+    font-size: 14px;
+    font-style: bold;    
+    border-radius: 5px;
+    background-color: #8F00FF;
+    color: #FFFFFF;
+}
+
+.item new {
+    font-family: Open sans;
+    font-size: 36px;
+    font-style: bold;
+    color: #FFFFFF;
+}
+
+.box1 {
+    width: 362;
+    height: 305;
+}
