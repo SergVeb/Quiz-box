@@ -62,8 +62,11 @@ p {
 }
 
 .contacts {
-    top:48 px;
+    top:48px;
     right:0;
+    position: absolute;
+    font-style: normal;
+    text-align: right;
 }
 
 .menu__item {
@@ -75,11 +78,6 @@ p {
 .menu__link {
     font-size: 14px;
     text-decoration: none;
-}
-
-.contacts {
-    font-style: normal;
-    text-align: right;
 }
 
 .contacts__phone {
@@ -129,19 +127,20 @@ p {
     margin-bottom: 138px;
 }
 
-section__title {
+.section__title {
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 45px;
 }
 
-offers__item {
+.offers__item {
     min-height: 449px;
     background: #fff;
     border-radius: 4px;
     display: inline-block;
     margin-right: 28px;
     width: 362px;
+    position: relative;
 }
 
 .offers__item:last-child {
@@ -155,7 +154,6 @@ offers__item {
 }
 
 .offers__header {
-    position: absolute;
     left: 50%;
     top: 50%;
     margin-left: -44px;
@@ -256,7 +254,7 @@ offers__item {
     vertical-align: middle;
 }
 
-pager__item--active .pager__link {
+.pager__item--active .pager__link {
     background: #8F00FF;
 }
 
@@ -313,9 +311,9 @@ pager__item--active .pager__link {
 }
 
 .footer-container__content {
-    border-top: 1px solid #353538
+    border-top: 1px solid #353538;
+    position: absolute;
 }
-
 
 .footer {
     height: 152px;
@@ -352,34 +350,34 @@ pager__item--active .pager__link {
 }
 
 .socials__item--icon--telegram .socials__link {
-    background-image: url(images/telegram.png);
+    background-image: url(./images/telegram.png);
 }
 
 .socials__item--icon--telegram .socials__link:hover {
-    background-image: url(images/telegram.png);
+    background-image: url(./images/telegram.png);
 }
 
 .socials__item--icon--vk .socials__link {
-    background-image: url(images/vk.png);
+    background-image: url(./images/vk.png);
 }
 
 .socials__item--icon--telegram .socials__link:hover {
-    background-image: url(images/vk.png);
+    background-image: url(./images/vk.png);
 }
 
 .socials__item--icon--fb .socials__link {
-    background-image: url(images/fb.png);
+    background-image: url(./images/fb.png);
 }
 
 .socials__item--icon--fb .socials__link:hover {
-    background-image: url(images/fb.png);
+    background-image: url(./images/fb.png);
 }
 
 .socials__item--icon--in .socials__link {
-    background-image: url(images/in.png);
+    background-image: url(./images/in.png);
 }
 
 .socials__item--icon--in .socials__link:hover {
-    background-image: url(images/in.png);
+    background-image: url(./images/in.png);
 }
 
